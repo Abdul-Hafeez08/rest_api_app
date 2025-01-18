@@ -32,7 +32,7 @@ class _UsersDataApiState extends State<UsersDataApi> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Users Data Api'),
+        title: const Text('Users Data Api'),
       ),
       body: Column(
         children: [
@@ -56,7 +56,7 @@ class _UsersDataApiState extends State<UsersDataApi> {
                         child: Card(
                           elevation: 5,
                           child: Padding(
-                            padding: EdgeInsets.symmetric(
+                            padding: const EdgeInsets.symmetric(
                                 horizontal: 8, vertical: 16),
                             child: Column(
                               spacing: 5,

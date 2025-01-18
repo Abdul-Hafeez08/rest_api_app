@@ -19,7 +19,7 @@ class _ApiWithoutModelState extends State<ApiWithoutModel> {
 
     if (response.statusCode == 200) {
       data = jsonDecode(response.body.toString());
-    } else {}
+    }
   }
 
   @override
